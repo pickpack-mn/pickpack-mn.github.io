@@ -1,0 +1,195 @@
+.login-buttons
+{
+    border: 1px solid white;
+    color: white;
+}
+
+.footer1 .mbr-fonts-style .mbr-text .footer-text
+{
+    font-family: 'SF Pro Display-Regular';
+}
+
+.logo-container
+{
+    background-color: white;
+}
+
+.access-button
+{
+    border: solid 1px white;
+    font-size: small;
+}
+
+.menus
+{
+    align-content: center;
+    display: flex;
+}
+
+.item-wrapper
+{
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.carousel-caption 
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+#small-top
+{
+    /* font-size: 1.5vw; */
+}
+
+#big-bottom
+{
+    /* font-size: 3vw; */
+} 
+
+.nav-link
+{
+    color: white;
+}
+
+.fc-content-container
+{
+    position: relative;
+    text-align: center;
+    /* color: white; */
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.fc-main-text
+{
+    text-align: justify;
+    text-justify: auto;
+}
+
+.pickpack-main-text
+{
+    text-align: justify;
+    text-justify: auto;
+}
+
+.footer-titles
+{
+    /* font-size: 1.5vw; */
+}
+
+.blogs-titles
+{
+    /* font-size: 2vw; */
+}
+
+.blogs-tags
+{
+    /* font-size: 0.8vw; */
+}
+
+.speech-bubble
+{
+    margin: 30px;
+    display: flex;
+    text-align: justify;
+    text-justify: auto;
+    /* border: 1px solid #259ab6; */
+}
+
+.customer-position
+{
+    font-size: 10px;
+}
+
+.header6 #fc-title
+{
+    font-size: 24px;
+}
+
+.whatspickpack-image
+{
+    background-image: url("https://www.pickpack.mn/assets/images/fc-main-header-1-1063x479") !important;
+}
+
+.why-logo-1 {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .why-logo-1::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    margin: auto;
+    background-image: url('http://imagespng.com/Data/DownloadLogo/Success-Transparent.png');
+    background-position: center;
+    background-size: contain;
+  }
+
+.fc-top-section
+{
+    background-image: url('images/fc-main-header-1-1063x479.png');
+}
+
+@media (max-width: 768px)
+{
+    .index-overlay
+    {
+        display: none;
+    }
+    .index-img-container
+    {
+        display: none;
+    }
+
+    .why-card-text
+    {
+        font-size: 11px;
+        text-align: justify;
+        text-justify: auto;
+    }
+
+    .how-top-title
+    {
+        font-size: 25px;   
+    }
+
+    .how-top-text
+    {
+        font-size: 10px;
+        display: flex;
+        text-align: justify;
+        text-justify: inter-character;
+        padding: 0 30px;
+        
+    }
+
+}
+
+.sub-menu
+{
+    background-color: white;
+}
+
+.why-bottom-text
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    text-justify: inter-character;
+}
+
